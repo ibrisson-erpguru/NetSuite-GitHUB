@@ -43,6 +43,11 @@
 		if (results != null && results != '' && results.length == 1) {
 			nlapiSetFieldValue('custbody_weightunitconversion',results[0].getValue('conversionrate'));
 			nlapiLogExecution('DEBUG', 'TEST', 'TEST');
+			for ( var i = 0; i < search.length; i++) {
+				var transaction = search[i];
+				nlapiLoadRecord('salesorder', 123, null);
+				
+			}
 		}
 	}
 }
