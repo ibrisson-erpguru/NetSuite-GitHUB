@@ -36,7 +36,7 @@ function fieldChanged_setFields(type,name,line){
   * On a Sales Order form, when a field is edited
   * Set the unit conversion rate field value based on the selected weight unit
   * The unit conversion rate is pulled from the Unit Type 8 (Pounds), from the 
-  * line item for which the unit name corresponds the unit selected on the form
+  * line item for which the unit name corresponds the unit selected on the Form
   * @param {Object} type, subline type
   * @param {Object} name, name of field being changed
   * @param {Object} linenum, subline number
