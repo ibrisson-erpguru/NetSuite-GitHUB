@@ -46,7 +46,7 @@
 			for ( var i = 0; i < search.length; i++) {
 				var transaction = search[i];
 				nlapiLoadRecord('salesorder', 123, null);
-				
+				nlapiSubmitRecord('sales order', true, true);
 			}
 		}
 	}
